@@ -1,10 +1,47 @@
 .container{
-    background-color: rgb(246, 219, 185);
+    background-color: rgb(254, 216, 81);
+}
+.image{
+    width: 150px;
+    height: 140px;
+    display: flex;
+    padding-left: 65vh;
 }
 .content{
-   background-color: rgb(242, 228, 245);
-   height: 100vh;
-   width: 150vh;
+   background-color: rgb(233, 210, 36);
+   height: 95h;
+   width: 140vh;
    padding: 50px;
-   margin: 200px;
+   margin: 180px;
+}
+.head{
+    text-align: center;
+    background-color: rgb(235, 169, 146);
+    height: 100px;
+    font-size: 70px;
+    color: rgb(137, 54, 239);
+    font-style: oblique;
+}
+.table{
+text-align: center;
+border:color-mix(in hsl shorter hue, color percentage, color percentage);
+size: 100px;
+width: 140vh;
+height: 250px;
+font-size: 25px;
+box-shadow: 2px 3px 2px 4px rgb(209, 205, 202);
+}
+.info{
+    background-color: rgb(230, 212, 233);
+    height: 30vh;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footer{
+    font-size: 20px;
+    color: rgb(28, 48, 48);
+    background-color: rgb(225, 91, 42);
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
